@@ -133,9 +133,9 @@ public class OpenEMRImpl extends EMRFacade {
                     }
                     Date d=null;
                     try {
-                    	d=df.parse(jo.getString("DOB"));
+                    	d=df.parse(jo.getString("dob"));
                     } catch (ParseException pe) {
-                    	log.error("Could not parse date "+jo.getString("DOB"), pe);
+                    	log.error("Could not parse date "+jo.getString("dob"), pe);
                     	d=new Date(0);
                     }
                     PatientInfo pi=new PatientInfo(

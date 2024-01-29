@@ -20,12 +20,10 @@
   <TextField fx:id="scope">default</TextField>
   <Label>Access Token</Label>
   <TextField fx:id="accessToken" editable="false"/>
-  <!--
   <Button fx:id="refresh" onAction="#refresh">Refresh</Button>
   <Label>Sessions</Label>
   <ComboBox fx:id="sessionList" promptText="Select a session"/>
   <Button fx:id="transmit" onAction="#sendData">To OpenEMR</Button>
-  -->
   </VBox>
   
 </center>
